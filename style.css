@@ -1,0 +1,219 @@
+/* container holding the image and the text */
+*{
+    /* position: relative; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* centre text */
+.text-block {
+    position:absolute;
+    bottom: 110px;
+    right: 200px;
+    left: 200px;
+    background-color: transfarete;
+    color: rgb(255, 255, 255);
+    padding:50px 100px 50px 10px ;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.text-title{
+margin-bottom: 13px;
+font-size: 30px;
+
+}
+.text-description{
+margin-bottom: 13px;
+}
+/* heading style */
+.heading{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+/* heading description */
+.heading-description{
+    margin-bottom: 20px;
+}
+/* primary Button */
+.btn-primary{
+    background-color: rgb(255, 0, 102);
+    border-radius: 3px;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    
+}
+.btn-primary:hover{
+    background-color: black;
+}
+/* all section */
+.section{
+    text-align: center;
+    margin: auto 500px;
+}
+.donate-info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+/* donate amount info */
+.donate-info-title{
+    color: rgb(62, 62, 62);
+    font-size: x-large;
+    border-top: 20px;
+    border-bottom: 20px;
+    border-left: 10px;
+    border-right: 10px;
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    background-color:rgb(182, 182, 182);
+    border-radius: 5px;
+}
+/* horizontal rule styles */
+hr {
+    display: block;
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+  }
+ /* amount title */
+.amount-title{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: rgb(147, 147, 147);
+}
+
+/* description section */
+.description{
+    display: flex;
+    align-items: center;
+    margin:30px 200px;
+    
+}
+.description-1{
+ background-color: rgba(192, 192, 192, 0.134);
+ margin-right: 30px;
+ padding: 30px 40px; 
+}
+.description-2{
+background-color: rgba(255, 192, 203, 0.205);
+margin-right: 30px;
+padding: 30px 40px;
+}
+.description-3{
+background-color: rgba(222, 184, 135, 0.205);
+padding: 30px 40px;
+margin-right: 30px;
+}
+
+/* image display */
+.img{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 350px;
+}
+.about-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+
+}
+.about-info-1{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 250px;
+
+}
+.pic{
+    border-radius: 10px;
+}
+/* img title and des style */
+.img-title{
+font-size: 25px;
+}
+.img-des{
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+}
+.img-des-1{
+margin-top: 20px;
+margin-bottom: 15px;
+font-size: 12px;
+color: rgb(107, 107, 107);
+}
+/* button secound style */
+.btn-secound{
+    background-color: rgb(255, 0, 102);
+    border-radius: 3px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+
+}
+.btn-secound:hover{
+    background-color: black;
+}
+
+/* get my update Section */
+.update{
+    text-align: center;
+    margin: 90px 200px;
+}
+.update-title{
+    font-size: 35px;
+}
+.update-des{
+    font-size: 15px;
+    margin: 15px 300px;
+    color: rgb(107, 107, 107);
+}
+/* from style */
+.from{
+    background-color: rgba(254, 223, 170, 0.353);
+    height: 125px;
+    width: 775px;
+    margin: -50px auto;
+}
+/* from input items style */
+.btn-email{
+    border: 0;
+    width: 260px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 185px;
+    margin-right: -5px;
+    padding-left: 10px;
+}
+.btn-subscribe{
+    border: 0;
+    width: 90px;
+    height: 40px;
+}
+/* footer styles */
+.footer{
+    background-color: rgb(0, 0, 30);
+    color:rgb(255, 0, 102);
+    height: 125px;
+    margin-top: 180px;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-title{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.footer-des{
+    font-size: 12px;
+}
