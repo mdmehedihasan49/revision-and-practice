@@ -1,7 +1,5 @@
 /* container holding the image and the text */
 *{
-    /* position: relative; */
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +20,6 @@
 .text-title{
 margin-bottom: 13px;
 font-size: 30px;
-
 }
 .text-description{
 margin-bottom: 13px;
@@ -98,18 +95,18 @@ hr {
 }
 .description-1{
  background-color: rgba(192, 192, 192, 0.134);
- margin-right: 30px;
- padding: 30px 40px; 
+ margin-right: 20px;
+ padding: 30px 40px;
 }
 .description-2{
 background-color: rgba(255, 192, 203, 0.205);
-margin-right: 30px;
+margin-right: 20px;
 padding: 30px 40px;
 }
 .description-3{
 background-color: rgba(222, 184, 135, 0.205);
 padding: 30px 40px;
-margin-right: 30px;
+margin-right: 20px;
 }
 
 /* image display */
@@ -119,6 +116,13 @@ margin-right: 30px;
     margin-left: 200px;
     margin-right: 350px;
 }
+
+/* icon style */
+.icon-img{ 
+    margin-bottom: 10px;
+}
+
+/* about section */
 .about-info{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -213,6 +217,8 @@ color: rgb(107, 107, 107);
 .footer-title{
     margin-bottom: 10px;
     font-style: italic;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 .footer-des{
     font-size: 12px;
